@@ -10,11 +10,11 @@ screen = pygame.display.set_mode(WINDOW_SIZE, 0, 32)
 display = pygame.Surface((300, 200))
 pygame.display.set_caption('Myformer')
 
-PLAYER_IMG = pygame.image.load('src/idle_0.png').convert()
+PLAYER_IMG = pygame.image.load('idle_0.png').convert()
 PLAYER_IMG.set_colorkey((255, 255, 255))
 
-DIRT_IMG = pygame.image.load(os.path.join('src', 'dirt.png'))
-GRASS_IMG = pygame.image.load(os.path.join('src', 'grass.png'))
+DIRT_IMG = pygame.image.load('dirt.png')
+GRASS_IMG = pygame.image.load('grass.png')
 
 
 BG_COLOR = (146, 244, 255)
